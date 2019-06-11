@@ -17,4 +17,5 @@ steps:
     repository: 'bengreenier/x11-electron'
     command: 'buildAndPush'
     Dockerfile: 'Dockerfile'
-    tags: '$(Build.BuildId) latest'
+    tags: '$(Build.BuildId)
+    latest'
