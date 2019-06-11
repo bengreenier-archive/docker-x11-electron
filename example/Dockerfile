@@ -1,4 +1,4 @@
-FROM x11-electron:latest
+FROM bengreenier/x11-electron:latest
 WORKDIR /home/electron
 ENV ELECTRON_VERSION=latest
 ENV ELECTRON_ENTRY=./main.js
